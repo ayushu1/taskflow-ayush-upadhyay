@@ -171,25 +171,3 @@ Example:
 - `404 { "error": "not found" }` - Resource not found
 
 Note: This is frontend-only; Docker runs a static nginx container and MSW mocks all backend endpoints in the browser.
-
-## What I'd Do With More Time
-
-1. **Persistence layer**: Add localStorage or IndexedDB persistence for the mock data so changes survive page refreshes during development.
-
-2. **Drag-and-drop**: Implement `@hello-pangea/dnd` for Kanban-style drag-and-drop task reordering and status changes.
-
-3. **Real-time updates**: Add WebSocket simulation for collaborative editing demonstrations.
-
-4. **Pagination and infinite scroll**: Add virtualized lists for handling large task/project counts.
-
-5. **Dark mode**: Implement theme switching with MUI's theme provider.
-
-6. **Testing**: Add unit tests with Vitest and integration tests with Playwright, particularly for the optimistic update rollback behavior.
-
-7. **Offline support**: Add service worker caching for true offline-first capability.
-
-8. **Accessibility audit**: Run axe-core and keyboard navigation tests to ensure WCAG compliance.
-
-9. **Animations**: Add Framer Motion for smoother page transitions and micro-interactions.
-
-10. **Advanced filtering**: Add search, multi-select filters, and saved filter presets.
