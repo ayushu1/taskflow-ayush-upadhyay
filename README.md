@@ -41,7 +41,7 @@ The application uses Mock Service Worker (MSW) to simulate a full REST API, allo
 Assuming Docker is installed, these are the exact steps from clone to running app:
 
 ```bash
-git clone https://github.com/your-name/taskflow
+git clone https://github.com/ayushu1/taskflow-ayush-upadhyay.git
 cd taskflow
 cp .env.example .env
 docker compose up --build
